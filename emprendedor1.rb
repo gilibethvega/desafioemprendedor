@@ -6,7 +6,7 @@ profits = price * users - cost
 profitswithtax = profits - (profits*tax)
 
 if profits<0
-  puts profits
+  puts "Las utilidades serán negativas por el orden de #{profits}"
 else
-  puts profitswithtax
+  puts "Las utilidades después de impuesto serán de #{profitswithtax}"
 end
